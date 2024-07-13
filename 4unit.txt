@@ -1,6 +1,6 @@
 getgenv().Key = "k04111c7da1af92f561a6bb2"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = ""
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1174162493258608671/1261546499666612294/tanh.txt?ex=66935a3b&is=669208bb&hm=ae50c95a450d5346aa720bb9c04c24b28a7911804dabbcbabb6e85123c1e1070&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
