@@ -1,6 +1,6 @@
 getgenv().Key = "k04111c7da1af92f561a6bb2"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://raw.githubusercontent.com/tvh90/toilet/master/tanh.txt"
+getgenv().ImportMacro = "https://raw.githubusercontent.com/tvh90/toilet/master/tanh.json"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
