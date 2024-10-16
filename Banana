@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-getgenv().Key = "Key" 
+getgenv().Key = "d70f3af5db00b22eaf8c7977" 
 getgenv().Config = {
 	["Input Discord Ping"] = "",
 	["Auto Use Potion"] = true,
