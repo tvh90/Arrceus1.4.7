@@ -71,7 +71,7 @@ getgenv().Config = {
 		["Items Potion I"] = true,
 		["The Cocktail"] = true
 	},
-	["Black Screen"] = true,
+	["Black Screen"] = false,
 	["Infinite Speed Pet"] = true,
 	["Webhook Roll Pet"] = true,
 	["Auto Farm Coins"] = true,
