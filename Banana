@@ -18,7 +18,7 @@ getgenv().Config = {
 		["Coins Potion V"] = true
 	},
 	["Auto Use Fruit"] = true,
-	["Black Screen"] = true,
+	["Black Screen"] = false,
 	["Infinite Speed Pet"] = true,
 	["Select Items Buy"] = {
 		["Instant Luck Potion II"] = true,
@@ -32,7 +32,7 @@ getgenv().Config = {
 	["Auto Machine Fruit"] = true,
 	["Auto Buy Upgrades"] = true,
 	["Auto Collect Loot Bag"] = true,
-	["Input Username"] = "",
+	["Input Username"] = "jLMzrBrXzpE",
 	["Auto Buy Vending Machine"] = true,
 	["Webhook Roll Pet"] = true,
 	["Input Difficulty Pet"] = "1000000",
