@@ -2,8 +2,6 @@ getgenv().Key = "k11e11c4fed413df4cbcf46b"
 getgenv().Config = {
     ["AutoFarm"] = true,
     ["AutoRoll"] = true,
-    ["AutoUpgrade"] = true,
-    ["Fast Rool Mode"] = true,
-    ["Auto Hidden Gift"] = true,   
+    ["AutoUpgrade"] = true,  
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
