@@ -1,2 +1,45 @@
 getgenv().Key = "k11e11c4fed413df4cbcf46b"
+getgenv().Config = {
+	["Webhook"] = {
+		["Minimum Chance"] = 1000000
+	},
+	["Consumer"] = {
+		["Potion"] = {
+			["Enable"] = true
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
+	},
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 100
+	},
+	["Crafter"] = {
+		["Enable"] = true
+	},
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["Sender"] = {
+		["Minimum Chance"] = 1000000
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
+	}
+}
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
