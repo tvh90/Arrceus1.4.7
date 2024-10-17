@@ -1,5 +1,5 @@
 getgenv().Config = {
-	["Input Discord Ping"] = "",
+	["Input Discord Ping"] = "1093871052112789586",
 	["Auto Use Potion"] = true,
 	["Select Potions Use"] = {
 		["Faster Rolls Potion"] = true,
