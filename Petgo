@@ -1,7 +1,10 @@
-getgenv().Key = "k11e11c4fed413df4cbcf46b"
 getgenv().Config = {
 	["Webhook"] = {
-		["Minimum Chance"] = 1000000
+		["Mention"] = "1093871052112789586",
+		["URL"] = "https://discord.com/api/webhooks/1296408176568307732/OKLHfahFvdqtsxCkJNUzWJHvwoEzUso8ecZD0-tSx66seXnEgZ9FSrvpX1MobIpqnY0D",
+		["Minimum Chance"] = 10000000,
+		["Pet Rolled"] = true,
+		["Mail Sent"] = true
 	},
 	["Consumer"] = {
 		["Potion"] = {
@@ -59,7 +62,39 @@ getgenv().Config = {
 		["Boost FPS"] = true
 	},
 	["Sender"] = {
-		["Minimum Chance"] = 1000000
+		["Auto Send Mail"] = true,
+		["Minimum Chance"] = 10000000,
+		["Receiver Name"] = "jLMzrBrXzpE"
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true,
+		["Item"] = {
+			["Coins Potion II"] = true,
+			["Lucky Potion IV"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
+			["Coins Potion I"] = true,
+			["Breakables Potion I"] = true,
+			["Faster Rolls Potion"] = true,
+			["Ice Cream Hoverboard"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Ice Cream Booth"] = true,
+			["Lucky Potion V"] = true,
+			["Rave Crab Booth"] = true,
+			["Rave Crab Hoverboard"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Golden Dice Potion"] = true,
+			["Instant Luck Potion III"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion I"] = true,
+			["Lucky Potion II"] = true
+		},
+		["Index Shop"] = {
+			["Enable"] = true
+		}
 	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
@@ -67,4 +102,5 @@ getgenv().Config = {
 		["Fast Roll"] = true
 	}
 }
+getgenv().Key = "k11e11c4fed413df4cbcf46b"
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
