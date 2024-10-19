@@ -1,7 +1,7 @@
 getgenv().Config = {
 	["Webhook"] = {
 		["Mention"] = "1093871052112789586",
-		["URL"] = "https://discord.com/api/webhooks/1297019798902804490/VEl5U8Fdr-Du4TGFdchGkw94Te-RmymRnfLyh-jFooYpb26cTaDHWkeOTc8QGjRLVKDt",
+		["URL"] = "https://discord.com/api/webhooks/1297057384405008415/oGGZ9OJiCQB_zrbc3V47LmWv_t5bF-gRTibg_Cul-HXqPZKqYVko6OvokJ_OW5EsVn5W",
 		["Minimum Chance"] = 10000000,
 		["Pet Rolled"] = true,
 		["Mail Sent"] = true
