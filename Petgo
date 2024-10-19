@@ -62,9 +62,9 @@ getgenv().Config = {
 		["Boost FPS"] = true
 	},
 	["Sender"] = {
-		["Auto Send Mail"] = true,
+		["Auto Send Mail"] = false,
 		["Minimum Chance"] = 10000000,
-		["Receiver Name"] = "jLMzrBrXzpE"
+		["Receiver Name"] = ""
 	},
 	["Buyer"] = {
 		["Potion Vending"] = true,
