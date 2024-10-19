@@ -59,7 +59,7 @@ getgenv().Config = {
 		["Auto Hidden Gift"] = true
 	},
 	["Performance"] = {
-		["Boost FPS"] = true
+		["Boost FPS"] = false
 	},
 	["Sender"] = {
 		["Auto Send Mail"] = false,
