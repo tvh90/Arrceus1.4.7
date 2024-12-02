@@ -3,15 +3,8 @@ repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
-_G.FixBugLDArce = true
 _G.Team = "Pirate" -- Marine / Pirate
-_G.KAITUN_SCRIPT = true
-_G.LogsDes = {
-    ["Enabled"] = true, -- เปิดการใช้งาน
-    ["SendAlias"] = true, -- เปิดการส่ง Alias
-    ["SendDescription"] = true, -- เปิดการส่ง Des
-    ["DelaySend"] = 5 -- วินาที
-}
+getgenv().Script_Mode = "Kaitun_Script"
 _G.WebHook = {
     ["Enabled"] = true, -- เปิดการใช้งาน
     ["Url"] = "", -- ลิ้งค์เว็บฮุก
@@ -28,7 +21,19 @@ _G.MainSettings = {
         ["LockFragments"] = 20000, -- ล็อคเงินม่วง
         ["LockFruitsRaid"] = { -- ล็อคผลที่ไม่เอาไปลงดัน
             [1] = "Dough-Dough",
-            [2] = "Dragon-Dragon"
+            [2] = "Dragon-Dragon",
+            [3] = "Kitsune-Kitsune",
+            [4] = "Leopard-Leopard",
+            [5] = "T-rex-T-rex",
+            [6] = "Mammoth-Mammoth",
+            [7] = "Venom-Venom",
+            [8] = "Spirit-Spirit",
+            [9] = "Shadow-Shadow",
+            [10] = "Portal-Portal",
+            [11] = "Buddha-Buddha",
+            [12] = "Control-Control",
+            [13] = "Gravity-Gravity",
+            [14] = "Rumble-Rumble"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
@@ -42,7 +47,7 @@ _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
     ['DoughQuests_Mirror'] = {
         ['Enabled'] = true,
         ['UseFruits'] = true
-    }        
+    }       
 }
 _G.Races_Settings = { -- ตั้งค่าเผ่า
     ['Race'] = {
@@ -97,6 +102,7 @@ _G.SwordSettings = { -- ดาบที่จะทำ
 }
 _G.SharkAnchor_Settings = {
     ["Enabled_Farm"] = true,
+    ['FarmAfterMoney'] = 2500000
 }
 _G.GunSettings = { -- ปืนที่จะทำ
     ['Kabucha'] = true,
