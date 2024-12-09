@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "d70f3af5db00b22eaf8c7977"
 getgenv().SettingFarm = {
     ["Hide UI"] = false,
-    ["White Screen"] = false,
+    ["White Screen"] = true,
     ["Auto Sell"] = {
         ["Enabled"] = true,
         ["Rarity"] = {
@@ -58,8 +58,8 @@ getgenv().SettingFarm = {
         }
     },
     ["Rejoin"] = {
-        ["Enabled"] = false,
-        ["Time"] = 20 ---minute
+        ["Enabled"] = true,
+        ["Time"] = 5 ---minute
     },
     ["Hop Server"] = {
         ["Hop Find WhirlPool Get Isonade"] = true,
